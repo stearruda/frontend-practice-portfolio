@@ -1,0 +1,52 @@
+:root {
+	--main-color: #754ef9;
+}
+
+body {
+	font-family: Open Sans;
+}
+
+header {
+	display: flex;
+	align-items:  center;
+}
+
+.main-logo {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	margin-right: 35px;
+}
+
+a {
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #101010;
+}
+
+.main-btn {
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+  padding: 13px 44px;
+	background-color: var(--main-color);
+  border-radius: 100px;
+  border: 1px solid var(--main-color);
+	box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.08);
+	cursor: pointer;
+  transition-duration: 0.4s;	
+}
+
+.main-btn:hover {
+	background-color: #fff;
+	color: var(--main-color);
+}
