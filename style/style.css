@@ -6,22 +6,23 @@ body {
 	font-family: Open Sans;
 }
 
-header {
+.main-header {
 	display: flex;
-	align-items:  center;
+	justify-content: space-between;
+	margin: 28px 140px 0;
 }
 
 .main-logo {
-	margin-right: auto;
-	margin-left: auto;
+	font-weight: 400;
+	font-size: 35px;
 }
 
-li {
+.item {
 	display: inline-block;
 	margin-right: 35px;
 }
 
-a {
+.link {
 	font-size: 15px;
 	text-transform: uppercase;
 	text-decoration: none;
